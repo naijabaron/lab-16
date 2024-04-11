@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(
         lab16_solutions.c
-        lab16_solutions.h lab16_solutions.c)
+        lab16_solutions.h lab16_solutions.c main.c)
