@@ -27,6 +27,8 @@ int countEqClassesByRowsSum(matrix matrix);
 
 int countSpecialElements(matrix matrix);
 
+void swapPenultimateRow(matrix matrix);
+
 
 
 #endif //LAB_16_LAB16_SOLUTIONS_H
