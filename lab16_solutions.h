@@ -9,4 +9,6 @@ void swapMaxElementRowAndMinElementRow(matrix matrix);
 
 void sortRowsByMaxElement(matrix matrix);
 
+void sortColsByMinElement(matrix matrix);
+
 #endif //LAB_16_LAB16_SOLUTIONS_H
