@@ -243,3 +243,18 @@ int getMatrixNorm(matrix matrix) {
     return max;
 }
 
+void printMatricesWithMinNorm(matrix* matrices, int matrixAmount) {
+    int matrixNorms[matrixAmount];
+
+    for (int i = 0; i < matrixAmount; ++i) {
+        matrixNorms[i] = getMatrixNorm(matrices[i]);
+    }
+
+    int minNorm = findMin(matrixNorms, matrixAmount);
+
+    for (int i = 0; i < matrixAmount; ++i) {
+        if (matrixNorms[i] == minNorm) {
+            outputMatrix(matrices[i]);
+        }
+    }
+}

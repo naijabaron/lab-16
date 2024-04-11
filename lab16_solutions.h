@@ -35,5 +35,7 @@ void printMatrixWithMaxZeroRows(const matrix* matrices, int matrixAmount);
 
 void printMatricesWithMinNorm(matrix* matrices, int matrixAmount);
 
+int countSpecialElements2(matrix matrix);
+
 
 #endif //LAB_16_LAB16_SOLUTIONS_H
