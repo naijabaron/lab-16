@@ -228,3 +228,18 @@ void printMatrixWithMaxZeroRows(const matrix* matrices, int matrixAmount) {
         }
     }
 }
+
+int getMatrixNorm(matrix matrix) {
+    int max = 0;
+
+    for (int i = 0; i < matrix.rows; ++i) {
+        int* row = matrix.cells[i];
+
+        for (int j = 0; j < matrix.columns; ++j) {
+            max = max(max, abs(row[j]));
+        }
+    }
+
+    return max;
+}
+
