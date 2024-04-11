@@ -35,3 +35,8 @@ void sortRowsByMinElement(matrix matrix) {
 void sortColsByMinElement(matrix matrix) {
     sortColumnsByCriteria(matrix, findMin);
 }
+void getSquareOfMatrixIfSymmetric(matrix* matrix) {
+    if (isSymmetricMatrix(matrix)) {
+        *matrix = multiply(*matrix, *matrix);
+    }
+}

@@ -11,4 +11,7 @@ void sortRowsByMaxElement(matrix matrix);
 
 void sortColsByMinElement(matrix matrix);
 
+void getSquareOfMatrixIfSymmetric(matrix* matrix);
+
+
 #endif //LAB_16_LAB16_SOLUTIONS_H
