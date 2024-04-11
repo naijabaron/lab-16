@@ -23,6 +23,8 @@ int getMinInArea(matrix matrix);
 
 void sortByDistances(matrix matrix);
 
+int countEqClassesByRowsSum(matrix matrix);
+
 
 
 #endif //LAB_16_LAB16_SOLUTIONS_H
