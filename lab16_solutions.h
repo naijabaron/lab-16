@@ -39,5 +39,7 @@ int countSpecialElements2(matrix matrix);
 
 int getVectorIndexWithMaxAngle(matrix vectorsMatrix, const int* vector);
 
+long long getSpecialScalarProduct(matrix matrix);
+
 
 #endif //LAB_16_LAB16_SOLUTIONS_H
