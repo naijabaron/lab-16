@@ -31,6 +31,7 @@ void swapPenultimateRow(matrix matrix);
 
 int countNonDescendingRowsMatrices(const matrix* matrices, int matrixAmount);
 
+void printMatrixWithMaxZeroRows(const matrix* matrices, int matrixAmount);
 
 
 #endif //LAB_16_LAB16_SOLUTIONS_H
