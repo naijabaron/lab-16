@@ -13,5 +13,7 @@ void sortColsByMinElement(matrix matrix);
 
 void getSquareOfMatrixIfSymmetric(matrix* matrix);
 
+void transposeIfMatrixHasNotEqualSumOfRows(matrix* matrix);
+
 
 #endif //LAB_16_LAB16_SOLUTIONS_H
