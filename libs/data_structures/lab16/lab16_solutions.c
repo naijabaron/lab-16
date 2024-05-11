@@ -3,7 +3,7 @@
 //
 
 #include "lab16_solutions.h"
-#include "libs/data_structures/matrix/matrix.h"
+#include "../matrix/matrix.h"
 #include <minmax.h>
 #include "libs/util/util.h"
 #include <math.h>

@@ -3,7 +3,7 @@
 //
 
 #include "libs/data_structures/matrix/matrix.h"
-#include "lab16_solutions.h"
+#include "libs/data_structures/lab16/lab16_solutions.h"
 #include <stdio.h>
 
 matrix createMatrixFromArray(const int *array, int rows, int columns) {
